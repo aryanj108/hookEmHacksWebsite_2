@@ -7,3 +7,26 @@
   font-family: 'Atlantis1';
   src: url('../fonts/AtlantisText-Bold.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Test';
+  src: url('../fonts/Baby Gemoy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Test1';
+  src: url('../fonts/ByteBounce.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Test2';
+  src: url('../fonts/Buhun Retro Two FREE.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Test3';
+  src: url('../fonts/Baloo2-VariableFont_wght.ttf') format('opentype');
+}
+
+
+

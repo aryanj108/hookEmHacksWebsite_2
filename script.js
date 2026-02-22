@@ -93,7 +93,7 @@ function createOceanBubble() {
   bubble.style.animationDuration = Math.random() * 10 + 10 + "s";
   bubble.style.animationDelay = Math.random() * 5 + "s";
   bubble.style.position = "fixed";
-  
+
   bubble.style.cursor = "pointer"; 
   // Pop on click
   bubble.addEventListener("click", () => {
@@ -302,9 +302,5 @@ updateTeamDisplay();
 // Register Button Navigation
 document.getElementById("registButton").addEventListener("click", (e) => {
   e.stopPropagation();
-  window.open("https://google.com/", "_blank");
-});
-
-document.addEventListener('click', (e) => {
-  console.log('Clicked element:', e.target, e.target.id);
+  window.open("https://forms.gle/RaPX1hgw51VMnHM28", "_blank");
 });

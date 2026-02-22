@@ -290,7 +290,7 @@ body {
 .section h2 {
   font-size: 48px;
   color: #000000;
-  font-family: "Atlantis";
+  font-family: "Test";
   margin-bottom: 30px;
 }
 
@@ -340,7 +340,7 @@ body {
 }
 
 #faq h2 {
-  font-family: "Atlantis";
+  font-family: "Test";
   font-size: 36px;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -395,9 +395,9 @@ body {
 }
 
 .faq-item h3 {
-  font-family: "Courier New", monospace;
+  font-family: "Test3";
   font-size: 16px;
-  color: #1a1a4d;
+  color: #000000;
   margin: 0;
   flex: 1;
   font-weight: 700;
@@ -436,7 +436,7 @@ body {
   font-size: 15px;
   line-height: 1.6;
   margin: 0;
-  font-family: "Courier New", monospace;
+  font-family: "Test3";
 }
 
 .faq-contact {
@@ -449,6 +449,7 @@ body {
   font-size: 14px;
   color: #1a1a4d;
   line-height: 1.6;
+  font-family: "Test3";
 }
 
 .faq-contact a {
@@ -500,9 +501,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Courier New", monospace;
+  font-family: "Test";
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 300;
   color: #ffffff;
   letter-spacing: 2px;
   background: rgba(0, 30, 70, 0.6);
@@ -514,7 +515,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Courier New", monospace;
+  font-family: "Test3";
   font-size: 11px;
   color: rgba(255,255,255,0.5);
   border-bottom: 1px solid rgba(255,255,255,0.06);
@@ -861,7 +862,7 @@ body {
 }
 
 .team-section h2 {
-  font-family: "Atlantis";
+  font-family: "Test";
   font-size: 36px;
   color: #000000;
   margin-bottom: 40px;
@@ -920,7 +921,7 @@ body {
   height: 48px;
   border-radius: 50%;
   border: 1.5px solid rgba(255, 255, 255, 0.15);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
   display: flex;
@@ -945,7 +946,7 @@ body {
 
 /* Team Card */
 .team-card {
-  background: rgba(0, 10, 20, 0.3);
+  background: rgba(0, 10, 20, 0.1);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
@@ -987,13 +988,14 @@ body {
 
 .team-info h3 {
   color: #ffffff;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  font-family: "Test";
 }
 
 .team-detail {
@@ -1012,12 +1014,14 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 6px;
+  font-family: "Test";
 }
 
 .team-detail p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 15px;
   line-height: 1.6;
+  font-family: "Test3";
 }
 
 /* Carousel Indicators */
@@ -1083,6 +1087,7 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Atlantis";
 }
 
 .footer-copyright {
@@ -1090,6 +1095,7 @@ body {
   font-size: 14px;
   margin-bottom: 10px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-family: "Atlantis";
 }
 
 .footer-links {
@@ -1106,6 +1112,7 @@ body {
   font-size: 14px;
   transition: color 0.3s;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-family: "Atlantis";
 }
 
 .footer-links a:hover {
@@ -1131,7 +1138,7 @@ body {
 }
 
 #about h2 {
-  font-family: 'Atlantis';
+  font-family: 'Test';
   font-size: 36px;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -1149,6 +1156,7 @@ body {
   width: 100%;
   max-width: 900px;
   box-shadow: none;
+  font-family: "Test3";
 }
 
 #about p {
@@ -1188,7 +1196,7 @@ body {
 
 .tracks-heading {
   text-align: center;
-  font-family: 'Atlantis';
+  font-family: 'Test';
   font-size: 3rem;
   margin-bottom: 50px;
   text-transform: uppercase;
@@ -1224,7 +1232,7 @@ body {
 
 /* Individual Cards */
 .track-card {
-  font-family: "Atlantis";
+  font-family: "Test";
   background: rgba(63, 63, 63, 0.3);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
@@ -1245,13 +1253,14 @@ body {
   font-size: 1.8rem;
   margin-bottom: 20px;
   letter-spacing: 2px;
+  
 }
 
 .track-card p {
   color: #000000;
   font-size: 0.9rem;
   line-height: 1.6;
-  font-family: "Courier New", monospace;
+  font-family: "Test3";
 }
 
 /* Individual jellyfish with different positions, sizes, and rotations */
@@ -1393,7 +1402,7 @@ body {
 }
 
 .sponsors-header h2 {
-  font-family: "Atlantis";  
+  font-family: "Test";  
   font-size: 48px;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -1408,6 +1417,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.6;
+  font-family: "Test3";
 }
 
 /* Auto-scrolling Sponsor Logos Container */
