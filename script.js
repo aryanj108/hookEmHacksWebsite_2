@@ -146,8 +146,9 @@ window.addEventListener("scroll", () => {
   const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
   const progress = scrollTop / maxScroll;
   const thumbHeight = thumb.offsetHeight;
-  const maxY = window.innerHeight - thumbHeight;
-  const y = progress * maxY;
+  const offset = 40;
+  const maxY = window.innerHeight - thumbHeight - offset;
+  const y = progress * maxY + offset;
   thumb.style.top = `${y}px`;
 
   // Adjust scrollbar-track height based on scroll position
