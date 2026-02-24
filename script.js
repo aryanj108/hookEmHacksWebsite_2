@@ -30,7 +30,7 @@ let scrollStartY = 0;
 // Team data
 const teams = [
   {
-    name: "ENTIRE TEAM",
+    name: "HOOK EM' HACKS 2026 TEAM",
     photo: "./assets/team/design_team.jpg",
     leads: "Director: Maanya Chugh",
     members: "Anika Srinivasan, Aristoteles Cortes-Loera, Aryan Jalota, Damodar Kamani, Harini Champooranan, Hrishi Kamireddy, Kyra Browning, Lillian Cutrer, Nasser Shaik, Nima Ansari, Noah Fishman, Priscilla Ye, Shrestha Mishra, Sofia Porras, Sophie Liu, Swyam Dubey",
