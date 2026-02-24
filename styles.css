@@ -1202,6 +1202,7 @@ body {
 
 .team-info h3 {
   color: #f7ce79;
+  text-align: center;
   -webkit-text-stroke: 1.5px #000000; 
   font-size: 18px;
   font-weight: 300;
