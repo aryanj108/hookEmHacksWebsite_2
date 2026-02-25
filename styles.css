@@ -1431,7 +1431,7 @@ body {
 .judges-label {
   font-family: "Test3";
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.7);
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -1963,24 +1963,56 @@ body {
     align-items: center;
   }
 
+  .sponsors-tiered-container {
+    padding-left: 0;
+  }
+
   .hero-tower {
     position: relative;
     top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   #faq {
     flex-direction: column;
     align-items: center;
-    padding: 80px 50px;
+    padding: 60px 20px;
+    gap: 30px;
+  }
+
+  .faq-side {
+    flex: 0 1 auto;
   }
 
   .faq-side img {
-    width: 250px;
+    width: 220px;
+  }
+
+  .faq-content-wrapper {
+    max-width: 100%;
+  }
+
+  .track-card {
+    flex: 0 0 calc(50% - 25px);
+    max-width: calc(50% - 25px);
   }
 }
 
 @media (max-width: 768px) {
+  .section {
+    padding: 60px 20px;
+  }
+
+  .section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .section p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
   .hero-section {
     padding: 100px 20px 60px;
   }
@@ -2000,6 +2032,178 @@ body {
 
   .landing-title h2 {
     font-size: 48px;
+  }
+
+  .intro-banner {
+    width: 80vw;
+    min-width: 280px;
+  }
+
+  .banner-text p {
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    -webkit-text-stroke: 1.5px #000000;
+  }
+
+  .register-label {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .countdown {
+    gap: 14px;
+    padding: 12px 20px;
+    bottom: 5%;
+  }
+
+  .countdown-number {
+    font-size: 28px;
+  }
+
+  .countdown-label {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .about-card {
+    padding: 20px 10px;
+  }
+
+  .about-card p {
+    font-size: 15px;
+  }
+
+  .about-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .track-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 30px 20px;
+  }
+
+  .track-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .track-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .tracks-heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .swimming-bevo img {
+    width: 120px;
+  }
+
+  .schedule-grid {
+    min-width: 400px;
+  }
+
+  .time-col {
+    flex: 0 0 50px;
+  }
+
+  .time-slot {
+    font-size: 10px;
+    height: 55px;
+  }
+
+  .schedule-events {
+    grid-template-rows: repeat(var(--rows), 55px);
+  }
+
+  .sched-event {
+    padding: 5px 6px;
+  }
+
+  .event-name {
+    font-size: 11px;
+  }
+
+  .event-time {
+    font-size: 9px;
+  }
+
+  #sponsors {
+    padding: 40px 15px;
+  }
+
+  .sponsors-header {
+    margin-bottom: 25px;
+  }
+
+  .sponsors-header h2 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  .sponsors-header p {
+    font-size: 14px;
+  }
+
+  .sponsors-scroll-container {
+    margin-bottom: 20px;
+  }
+
+  .sponsors-tiered-container {
+    padding-left: 0;
+    gap: 0;
+  }
+
+  .sponsor-tier {
+    margin-bottom: 0;
+  }
+
+  .sponsor-logo-container {
+    padding: 8px;
+  }
+
+  .tier-1 .sponsor-logo-container {
+    width: 180px;
+    height: 80px;
+  }
+
+  .tier-2 .sponsor-logo-container {
+    width: 150px;
+    height: 65px;
+  }
+
+  .tier-3 .sponsor-logo-container {
+    width: 130px;
+    height: 55px;
+  }
+
+  .tier-4 .sponsor-logo-container {
+    width: 110px;
+    height: 50px;
+  }
+
+  .sponsor-tier-logos {
+    gap: 10px;
+  }
+
+  .faq-question {
+    padding: 15px 18px;
+  }
+
+  .faq-item h3 {
+    font-size: 14px;
+  }
+
+  .faq-answer p {
+    font-size: 13px;
+  }
+
+  .faq-contact {
+    font-size: 13px;
   }
 
   .footer-content {
@@ -2026,20 +2230,33 @@ body {
   }
 
   .team-display {
-    padding: 30px 20px;
-    min-height: 350px;
+    padding: 20px 15px;
+    min-height: auto;
   }
 
   .team-photo-container {
-    height: 250px;
+    height: 180px;
+  }
+
+  .team-coming-soon {
+    font-size: 22px;
+    letter-spacing: 3px;
+  }
+
+  .team-info {
+    padding: 20px 16px;
   }
 
   .team-info h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .team-info .team-members {
-    font-size: 14px;
+    font-size: 13px;
+  }
+
+  .team-card {
+    max-width: 100%;
   }
 
   .footer-made-with {
@@ -2066,10 +2283,73 @@ body {
     width: 100px;
     opacity: 0.5;
   }
+
   .about-bubble { display: none; }
+
+  .custom-scrollbar,
+  .custom-scrollbar-track {
+    display: none;
+  }
+
+  .footer-bottom-bar {
+    min-height: 500px;
+  }
 }
 
 @media (max-width: 480px) {
+  .section {
+    padding: 40px 15px;
+  }
+
+  .section h2 {
+    font-size: 26px;
+  }
+
+  .intro-banner {
+    width: 90vw;
+    min-width: 240px;
+  }
+
+  .banner-text p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .countdown {
+    gap: 10px;
+    padding: 10px 14px;
+  }
+
+  .countdown-number {
+    font-size: 22px;
+  }
+
+  .countdown-unit {
+    min-width: 42px;
+  }
+
+  .about-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .stat-card {
+    padding: 12px 8px;
+  }
+
+  .stat-number {
+    font-size: 22px;
+  }
+
+  .stat-label {
+    font-size: 10px;
+  }
+
+  .judge-name {
+    font-size: 15px;
+  }
+
   .hero-tower {
     width: 40vw;
     min-width: 150px;
@@ -2084,6 +2364,10 @@ body {
     font-size: 36px;
   }
 
+  .team-carousel-container {
+    gap: 10px;
+  }
+
   .team-nav-arrow.left {
     border-width: 20px 30px 20px 0;
   }
@@ -2092,12 +2376,85 @@ body {
     border-width: 20px 0 20px 30px;
   }
 
+  .team-display {
+    padding: 15px 10px;
+    min-height: auto;
+  }
+
   .team-photo-container {
-    height: 200px;
+    height: 150px;
+  }
+
+  .team-coming-soon {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .team-info {
+    padding: 15px 12px;
   }
 
   .team-info h3 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .team-info .team-members {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  #faq h2 {
+    font-size: 26px;
+  }
+
+  .schedule-grid {
+    min-width: 340px;
+  }
+
+  .time-col {
+    flex: 0 0 42px;
+  }
+
+  .time-slot {
+    font-size: 9px;
+    height: 50px;
+  }
+
+  .schedule-events {
+    grid-template-rows: repeat(var(--rows), 50px);
+  }
+
+  .event-name {
+    font-size: 10px;
+  }
+
+  .event-time {
+    font-size: 8px;
+  }
+
+  .tier-1 .sponsor-logo-container {
+    width: 170px;
+    height: 85px;
+  }
+
+  .tier-2 .sponsor-logo-container {
+    width: 140px;
+    height: 70px;
+  }
+
+  .tier-3 .sponsor-logo-container {
+    width: 120px;
+    height: 60px;
+  }
+
+  .tier-4 .sponsor-logo-container {
+    width: 100px;
+    height: 50px;
+  }
+
+  .footer-bottom-bar {
+    min-height: 400px;
+    padding: 20px 10px;
   }
 }
 
