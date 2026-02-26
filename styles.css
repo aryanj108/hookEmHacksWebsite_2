@@ -1883,6 +1883,10 @@ body {
     box-shadow 0.3s ease;
 }
 
+.sponsor-logo-container img[src*="Hudson_River_Trading"] {
+  transform: scale(3.5); 
+}
+
 .sponsor-logo-container a {
   display: flex;
   align-items: center;
