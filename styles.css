@@ -1808,7 +1808,7 @@ body {
 
 .sponsors-scroll-track {
   display: flex;
-  animation: scroll 25s linear infinite; /*CHANGE SPEED HERE*/
+  animation: scroll 28s linear infinite; /*CHANGE SPEED HERE*/
   width: max-content;
   gap: 0;
 }
