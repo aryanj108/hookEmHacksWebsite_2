@@ -669,6 +669,26 @@ body {
   opacity: 0.12;
 }
 
+.schedule-svg-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.schedule-svg {
+  width: 48%;
+  min-width: 300px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .schedule-svg {
+    width: 100%;
+    min-width: unset;
+  }
+}
+
 .schedule-grid {
   display: flex;
   min-width: 500px;
@@ -2576,7 +2596,6 @@ body {
     padding: 5px 12px;
   }
 }
-
 
 .footer-bottom-bar {
   background-image:
