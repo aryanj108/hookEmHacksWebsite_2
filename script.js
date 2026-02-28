@@ -402,3 +402,19 @@ const revealObserver = new IntersectionObserver(
 document.querySelectorAll(".section, .team-section").forEach((section) => {
   revealObserver.observe(section);
 });
+
+// ── Schedule Filter Pills ──
+document.querySelectorAll('.pill').forEach(pill => {
+  pill.addEventListener('click', () => {
+    document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+    pill.classList.add('active');
+    const filter = pill.dataset.filter;
+    document.querySelectorAll('.sched-event').forEach(ev => {
+      if (filter === 'all' || ev.dataset.category === filter) {
+        ev.classList.remove('dimmed');
+      } else {
+        ev.classList.add('dimmed');
+      }
+    });
+  });
+});

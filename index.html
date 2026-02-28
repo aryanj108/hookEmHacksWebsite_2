@@ -216,9 +216,23 @@
       </div>
       <section id="schedule" class="section">
         <h2>Event Schedule</h2>
-        <div class="schedule-grid-wrapper">
+        <div class="schedule-filter-pills">
+        <button class="pill pill-all active" data-filter="all">All</button>
+        <button class="pill pill-required" data-filter="required">Required</button>
+        <button class="pill pill-event" data-filter="event">Event</button>
+        <button class="pill pill-food" data-filter="food">Food</button>
+        <button class="pill pill-forfun" data-filter="forfun">For Fun</button>
+      </div>
+      
+      <div class="schedule-svg-wrapper">
+        <img src="./updatedAssets/dayOneSchedule.svg" alt="Day 1 Schedule" class="schedule-svg" />
+        <img src="./updatedAssets/dayTwoSchedule.svg" alt="Day 2 Schedule" class="schedule-svg" />
+      </div>
+
+
+      <!-- 
+      <div class="schedule-grid-wrapper">
           <div class="schedule-grid">
-            <!-- Time Labels Column -->
             <div class="schedule-col time-col">
               <div class="schedule-day-header"></div>
               <div class="time-slot">9AM</div>
@@ -239,81 +253,65 @@
               <div class="time-slot">12AM</div>
             </div>
 
-            <!-- Day 1 Column -->
             <div class="schedule-col day-col">
               <div class="schedule-day-header">4/18</div>
               <div class="schedule-events" style="--rows: 15;">
-                <!-- Check-in: 9AM -->
                 <div class="sched-event color-blue" style="--start: 0; --span: 1;">
                   <span class="event-name">Check-in &amp; Registration</span>
                   <span class="event-time">9:00 AM</span>
                 </div>
-                <!-- Team Finding: 10AM -->
                 <div class="sched-event color-purple" style="--start: 1; --span: 1;">
                   <span class="event-name">🤝 Team Finding</span>
                   <span class="event-time">10:00 AM</span>
                 </div>
-                <!-- Opening Ceremony: 11AM -->
                 <div class="sched-event color-teal" style="--start: 2; --span: 1;">
                   <span class="event-name">Opening Ceremony</span>
                   <span class="event-time">11:00 AM</span>
                 </div>
-                <!-- Hacking Begins: 12PM -->
                 <div class="sched-event color-orange" style="--start: 3; --span: 1;">
                   <span class="event-name">🚀 Hacking Begins!</span>
                   <span class="event-time">12:00 PM</span>
                 </div>
-                <!-- Lunch: 12:30PM -->
                 <div class="sched-event color-green" style="--start: 4; --span: 1;">
                   <span class="event-name">Lunch</span>
                   <span class="event-time">12:30 PM</span>
                 </div>
-                <!-- Workshop: 2PM -->
                 <div class="sched-event color-purple" style="--start: 5; --span: 1;">
                   <span class="event-name">Workshop: Longhorn Neurotech</span>
                   <span class="event-time">2:00 PM</span>
                 </div>
-                <!-- Workshop: 3PM -->
                 <div class="sched-event color-purple" style="--start: 6; --span: 1;">
                   <span class="event-name">Workshop: ML Basics</span>
                   <span class="event-time">3:00 PM</span>
                 </div>
-                <!-- Workshop: 4PM -->
                 <div class="sched-event color-purple" style="--start: 7; --span: 1;">
                   <span class="event-name">Workshop: Agentic Development</span>
                   <span class="event-time">4:00 PM</span>
                 </div>
-                <!-- Workshop: 5PM -->
                 <div class="sched-event color-purple" style="--start: 8; --span: 1;">
                   <span class="event-name">Workshop: How to Make a Game</span>
                   <span class="event-time">5:00 PM</span>
                 </div>
-                <!-- Dinner: 6PM -->
                 <div class="sched-event color-green" style="--start: 9; --span: 1;">
                   <span class="event-name">Dinner</span>
                   <span class="event-time">6:00 PM</span>
                 </div>
-                <!-- Typing Contest: 7PM -->
                 <div class="sched-event color-orange" style="--start: 10; --span: 1;">
                   <span class="event-name">⌨️ Typing Contest</span>
                   <span class="event-time">7:00 PM</span>
                 </div>
-                <!-- Cup Stacking: 8PM -->
                 <div class="sched-event color-orange" style="--start: 11; --span: 1;">
                   <span class="event-name">🏆 Cup Stacking</span>
                   <span class="event-time">8:00 PM</span>
                 </div>
-                <!-- Trivia: 9PM -->
                 <div class="sched-event color-purple" style="--start: 12; --span: 1;">
                   <span class="event-name">🧠 Trivia Night</span>
                   <span class="event-time">9:00 PM</span>
                 </div>
-                <!-- Karaoke: 10PM -->
                 <div class="sched-event color-teal" style="--start: 13; --span: 1;">
                   <span class="event-name">🎤 Karaoke Hour</span>
                   <span class="event-time">10:00 PM</span>
                 </div>
-                <!-- Midnight Snacks: 12AM -->
                 <div class="sched-event color-green" style="--start: 15; --span: 1;">
                   <span class="event-name">🍕 Midnight Snacks</span>
                   <span class="event-time">12:00 AM</span>
@@ -321,41 +319,33 @@
               </div>
             </div>
 
-            <!-- Day 2 Column -->
             <div class="schedule-col day-col">
               <div class="schedule-day-header">4/19</div>
               <div class="schedule-events" style="--rows: 15;">
-                <!-- Morning Walk: 9AM -->
                 <div class="sched-event color-teal" style="--start: 0; --span: 1;">
                   <span class="event-name">🚶 Morning Walk</span>
                   <span class="event-time">9:00 AM</span>
                 </div>
-                <!-- How to Pitch: 10AM -->
                 <div class="sched-event color-purple" style="--start: 1; --span: 1;">
                   <span class="event-name">🎤 Workshop: How to Pitch</span>
                   <span class="event-time">10:00 AM</span>
                 </div>
-                <!-- Hacking ends: 11AM -->
                 <div class="sched-event color-orange" style="--start: 2; --span: 1;">
                   <span class="event-name">🛑 Hacking Ends</span>
                   <span class="event-time">11:00 AM</span>
                 </div>
-                <!-- Lunch & Judging: 12PM, 2hr -->
                 <div class="sched-event color-blue" style="--start: 3; --span: 2;">
                   <span class="event-name">Lunch &amp; Judging</span>
                   <span class="event-time">12:00 PM</span>
                 </div>
-                <!-- Final Presentations: 2PM, 2hr -->
                 <div class="sched-event color-purple" style="--start: 5; --span: 2;">
                   <span class="event-name">Final Presentations</span>
                   <span class="event-time">2:00 PM</span>
                 </div>
-                <!-- Closing: 4PM, 1hr -->
                 <div class="sched-event color-teal" style="--start: 7; --span: 1;">
                   <span class="event-name">🎉 Closing &amp; Awards</span>
                   <span class="event-time">4:00 PM</span>
                 </div>
-                <!-- Event Ends: 5PM -->
                 <div class="sched-event color-orange" style="--start: 8; --span: 1;">
                   <span class="event-name">Event Ends</span>
                   <span class="event-time">5:00 PM</span>
@@ -363,7 +353,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
       </section>
 
       <section id="faq" class="section">
